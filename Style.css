@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: roboto;
+}
+header {
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px;
+    color: #fff;
+    background: rgb(0, 201, 117);
+}
+header h1 {
+    margin: 10px 0px;
+}
+header h4 {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+#contents {
+    max-width: 1170px;
+    background: #fff;
+    width: 100%;
+    margin: auto;
+    margin: 50px;
+    display: flex;
+}
+.left-contant {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+.left-contant ul li {
+    list-style: none;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 15px;
+    background: #ddd;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.left-contant ul li:hover{
+    background: rgb(0, 201, 117);
+    color: #fff;
+    cursor: pointer;
+}
+.left-contant a {
+    text-decoration: none;
+    color: black;
+}
+.main-contant {
+    width: 60%;
+}
+.main-contant h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+.main-contant p {
+    width: 350px;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    padding: 15px;
+}
+.style-link {
+    width: 239px;
+    padding: 15px 0px;
+    margin: auto;
+    text-align: center;
+    background: #ddd;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.style-link:hover {
+    background: rgb(0, 201, 117);
+}
+.style-link a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.style-link a:hover {
+    color: #fff;
+}
+.main-contant h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.side-bar {
+    width: 20%;
+    float: right;
+    padding: 20px;
+    margin: 30px 0px;
+    color: #fff;
+    border-radius: 5px;
+    background: rgb(90, 148, 255);
+}
+.side-bar p {
+    font-size: 20px;
+}
+footer {
+    margin: auto;
+    width: 100%;
+    background: #ddd;
+}
+footer p{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    line-height: 20px;
+}
